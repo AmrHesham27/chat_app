@@ -1,0 +1,80 @@
+.grid {
+  display: grid;
+  grid-template-rows: repeat(10, 1fr);
+  grid-template-columns: auto 1fr auto;
+  height: 100vh;
+}
+.grid .card-container {
+  grid-column: 2/3;
+  grid-row: 2/10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid .card-container .card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 360px;
+  height: 100%;
+  z-index: 2;
+}
+.grid .card-container .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.grid .card-container .form .input-group {
+  display: flex;
+  flex-direction: column;
+}
+.grid .card-container .form .input-group input {
+  border: none;
+  border-bottom: 1px solid rgb(211, 211, 211);
+  padding: 5px;
+}
+.grid .card-container .form .input-group input:focus-visible,
+.grid .card-container .form .input-group input:visited,
+.grid .card-container .form .input-group input:checked {
+  outline: none;
+}
+.grid .card-container .form button {
+  margin: 30px 0;
+  font-weight: bolder;
+  color: white;
+  background-image: linear-gradient(90deg, #432c7a, #80489c, #ff8fb1);
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  padding: 7px 0;
+  font-size: large;
+  cursor: pointer;
+}
+.grid .card-container .form .error {
+  font-size: 12px;
+  color: rgb(196, 0, 0);
+}
+.grid .card-container .header {
+  margin-bottom: 3rem;
+  font-size: 28px;
+}
+.grid .card-container .social-sign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 2rem;
+}
+.grid .card-container .social-sign p {
+  margin-bottom: 0.5rem;
+}
+.grid .card-container .social-sign .icons svg {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}/*# sourceMappingURL=Login.module.css.map */

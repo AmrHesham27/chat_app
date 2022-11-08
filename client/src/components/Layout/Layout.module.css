@@ -1,0 +1,31 @@
+.container {
+  background-color: purple;
+  height: 100vh;
+  max-height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(45deg, #432c7a, #80489c, #ff8fb1);
+  position: relative;
+  overflow: hidden;
+}
+.container .squareOne {
+  width: 400px;
+  height: 400px;
+  background-color: transparent;
+  box-shadow: inset 0px 2px 100px #7f5d90;
+  transform: rotate(323deg);
+  left: -200px;
+  top: -100px;
+  position: absolute;
+  z-index: 1;
+}
+.container .squareTwo {
+  width: 400px;
+  height: 400px;
+  background-color: transparent;
+  box-shadow: inset 0px 2px 100px #ff8fb1;
+  transform: rotate(323deg);
+  right: -240px;
+  top: 300px;
+  position: absolute;
+  z-index: 1;
+}/*# sourceMappingURL=Layout.module.css.map */

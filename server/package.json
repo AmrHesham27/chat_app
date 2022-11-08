@@ -1,0 +1,24 @@
+{
+  "name": "node_chat_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "cd ../client && npm run build && copy build/* ../server/views && cd ../server && nodemon server.js",
+    "test": "npm test",
+    "copy": "copyfiles source destination"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "socket.io": "^4.5.3"
+  }
+}

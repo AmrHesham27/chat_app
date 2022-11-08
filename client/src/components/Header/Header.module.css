@@ -1,0 +1,14 @@
+.header {
+  z-index: 3;
+}
+.header .link {
+  color: #80489c;
+  font-weight: 700;
+  text-decoration: none;
+}
+.header .button {
+  color: #80489c;
+  border: none;
+  background-color: white;
+  font-weight: 700;
+}/*# sourceMappingURL=Header.module.css.map */
